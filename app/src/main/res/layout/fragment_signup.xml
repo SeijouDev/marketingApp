@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/colorBg">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="56dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+        <ImageView android:src="@drawable/ic_launcher_background"
+            android:layout_width="wrap_content"
+            android:layout_height="72dp"
+            android:layout_marginBottom="24dp"
+            android:layout_gravity="center_horizontal" />
+
+        <!--  Name Label -->
+        <EditText android:id="@+id/input_name"
+            style="@style/classic_input"
+            android:inputType="textCapWords"
+            android:hint="@string/prompt_name" />
+        
+
+        <!-- Birthdate Label -->
+        <TextView style="@style/classic_input"
+            android:id="@+id/input_date"
+            android:clickable="true"
+            android:hint="@string/prompt_birthdate"
+            android:textSize="16dp"/>
+
+
+        <!-- Address Label -->
+        <EditText android:id="@+id/input_address"
+            style="@style/classic_input"
+            android:hint="@string/prompt_address"/>
+
+        <Spinner style="@style/classic_input"
+            android:id="@+id/input_sex"
+            android:layout_height="40dp"/>
+
+        
+        <!-- Email Label -->
+        <EditText style="@style/classic_input"
+            android:id="@+id/input_email"
+            android:inputType="textEmailAddress"
+            android:hint="@string/prompt_email"/>
+
+
+        <!-- Password Label -->
+        <EditText style="@style/classic_input"
+            android:id="@+id/input_password"
+            android:inputType="textPassword"
+            android:hint="@string/prompt_password"/>
+
+
+        <!-- Confirm Password Label -->        
+        <EditText android:id="@+id/input_password2"
+            style="@style/classic_input"
+            android:inputType="textPassword"
+            android:hint="@string/prompt_confirm_password"/>
+        
+        
+        <!-- Signup Button -->
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_signup"
+            style="@style/primary_btn"
+            android:text="@string/action_create_account"/>
+
+        <!-- Go to login Button -->
+        <TextView
+            android:id="@+id/link_login"
+            style="@style/link_btn"
+            android:text="@string/action_already_registered"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">MarketingApp</string>
+    <string name="title_home">Home</string>
+    <string name="title_search">Buscar</string>
+    <string name="title_notifications">Notificaciones</string>
+    <string name="title_profile">Perfil</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_name">Nombre</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_address">Dirección (Opcional)</string>
+    <string name="prompt_birthdate">Fecha de nacimiento</string>
+    <string name="prompt_sex">Sexo</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="prompt_confirm_password">Confirma tu contraseña</string>
+    <string name="action_sign_in">Iniciar sesión</string>
+    <string name="action_sign_up"> ¿ No tienes cuenta aún ? Creala ahora </string>
+    <string name="action_already_registered"> ¿ Ya eres usuario ? Ir a login </string>
+    <string name="action_create_account">Crear cuenta</string>
+    <string name="valid_name_required">Por favor ingresa un nombre válido</string>
+    <string name="valid_birthdate_required">Por favor ingresa una fecha de nacimiento válida</string>
+    <string name="valid_sex_required">Por favor selecciona tu sexo</string>
+    <string name="valid_email_required">Por favor ingresa un email válido</string>
+    <string name="valid_pass_required">Por favor ingresa una contraseña válida</string>
+    <string name="password_dont_match">Las contraseñas no coinciden</string>
+
+    <!-- Sex spinner options -->
+    <string-array name="sex_array">
+        <item>Selecciona tu sexo</item>
+        <item>Femenino</item>
+        <item>Masculino</item>
+    </string-array>
+</resources>
